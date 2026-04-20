@@ -1,0 +1,71 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI';
+  background: #0f172a;
+  color: white;
+}
+
+.center {
+  text-align: center;
+  margin-top: 100px;
+}
+
+.sidebar {
+  width: 200px;
+  background: #020617;
+  padding: 20px;
+  height: 100vh;
+  position: fixed;
+}
+
+.main {
+  margin-left: 220px;
+  padding: 20px;
+}
+
+input, button {
+  padding: 10px;
+  margin: 5px;
+  border-radius: 10px;
+  border: none;
+}
+
+button {
+  background: linear-gradient(45deg,#38bdf8,#6366f1);
+  color: white;
+}
+
+.stats {
+  display: flex;
+  gap: 10px;
+}
+
+.stat-card {
+  background: rgba(255,255,255,0.05);
+  padding: 15px;
+  border-radius: 15px;
+  flex: 1;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill,minmax(200px,1fr));
+  gap: 10px;
+}
+
+.card {
+  background: rgba(255,255,255,0.05);
+  padding: 15px;
+  border-radius: 15px;
+}
+
+.light {
+  background: white;
+  color: black;
+}
+
+#chart{
+    max-width: 500px;
+    max-height: 250px;
+    margin: 20px auto;
+}
